@@ -4,7 +4,7 @@ from threading import Lock
 from time import sleep
 
 class Bank:
-    def init(self):
+    def __init__(self):
         self.balance: int = 0
         self.lock = Lock()
 
