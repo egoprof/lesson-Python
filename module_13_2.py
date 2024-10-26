@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, html
 
 
 # Bot token can be obtained via https://t.me/BotFather
-TOKEN = "7284858861:AAHImblkO2YHOD4BPqoDoZUBk5r9iT_bluk"
+TOKEN = "token"
 
 # All handlers should be attached to the Router (or Dispatcher)
 dp = Dispatcher()
